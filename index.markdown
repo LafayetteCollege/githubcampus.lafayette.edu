@@ -10,5 +10,3 @@ layout: home
 Projects could include: support integrating GitHub Classroom into your courses, technical instructional support for course integration or personal projects, research data management leveraging GitHub, making static sites, developing minimal computing digital scholarship projects, among many possible use cases. 
 
 [Please complete this form to express your interest.](https://forms.gle/hQiKiG7eeng1wXR86)
-
-For more information, contact (I'm not actually sure who we should name as contact person(s) here)
