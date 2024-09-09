@@ -5,8 +5,10 @@
 layout: home
 ---
 # GitHub Campus at Lafayette College
-Information Technology Services and the Libraries' Digital Scholarship Services seek project proposals to pilot use cases of GitHub Campus, a program that offers GitHub Enterprise Cloud free-of-charge for schools such as Lafayette College. This pilot will help ITS and the Libraries identify and develop parameters for a new area of service and related support infrastructure.
+[Information Technology Services](https://its.lafayette.edu/) and the Libraries' [Digital Scholarship Services](https://dss.lafayette.edu/) seek projects to help us pilot use cases of GitHub Campus, a program that offers GitHub Enterprise Cloud free-of-charge for schools such as Lafayette College. This pilot will help ITS and the Libraries identify and develop parameters for a new area of service and related support infrastructure.
 
-Projects could include: support integrating GitHub Classroom into your courses, technical instructional support for course integration, research data management leveraging GitHub, making static sites, developing minimal computing digital scholarship projects, among many possible use cases. 
+Projects could include: support integrating GitHub Classroom into your courses, technical instructional support for course integration or personal projects, research data management leveraging GitHub, making static sites, developing minimal computing digital scholarship projects, among many possible use cases. 
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdctxslmh17L-hlC3Mz_g0X_rf1MISBPq35__pymjAqcjS3Wg/viewform?embedded=true" width="640" height="815" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+[Please complete this form to express your interest.](https://forms.gle/hQiKiG7eeng1wXR86)
+
+For more information, contact (I'm not actually sure who we should name as contact person(s) here)
