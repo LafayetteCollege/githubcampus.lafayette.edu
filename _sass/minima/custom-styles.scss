@@ -24,6 +24,11 @@
     background-position:50% 50%;
     margin: 0 0 75px 0;
     position:relative;
+    transition:$transition-speed;
+
+    @media( max-width:800px ) {
+        height:280px;
+    }
 }
 
 .home-graphic-logo {
@@ -32,10 +37,15 @@
     left:50%;
     transform:translateX(-50%);
     bottom:-50px;
+    transition:$transition-speed;
+
+    @media( max-width:800px ) {
+        width:120px;
+    }
 }
 
 .site-header {
-    background-color:#910029;
+    background-color:$laf-red;
 }
 
 .home-intro {
@@ -46,4 +56,53 @@
     max-width:800px;
     margin:0 auto;
     text-align:center;
+}
+
+h2 {
+    color:$laf-red;
+    font-weight:700;
+}
+
+.cta {
+    max-width:650px;
+    margin:25px auto 0 auto;
+    padding:25px 0 0 0;
+    border-top:1px solid #DCDCDC;
+}
+
+a.button-link:link,
+a.button-link:visited {
+    background-color:$laf-red;
+    display:inline-block;
+    color:#FFFFFF;
+    padding:10px 45px;
+    border-radius:5px;
+    text-decoration:none;
+    transition:$transition-speed;
+    font-weight:700;
+    text-transform:uppercase;
+}
+
+a.button-link:hover {
+    background-color:$laf-gray;
+}
+
+.site-footer {
+    background:$laf-gray;
+
+    p {
+        color:#FFFFFF;
+    }
+}
+
+.footer-main {
+    text-align:center;
+    max-width:650px;
+    margin:0 auto;
+
+    img {
+        max-width:400px;
+        display:block;
+        margin:0 auto 20px auto;
+    }
 }
