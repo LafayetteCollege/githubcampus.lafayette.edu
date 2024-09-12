@@ -16,6 +16,10 @@
     max-width:1160px;
 }
 
+a {
+    transition:.3s;
+}
+
 .home-graphic {
     height:400px;
     background:#333333;
@@ -91,6 +95,15 @@ a.button-link:hover {
     background:$laf-gray;
 
     p {
+        color:#FFFFFF;
+    }
+
+    a:link,
+    a:visited {
+        color:$link-footer-color;
+    }
+
+    a:hover {
         color:#FFFFFF;
     }
 }
