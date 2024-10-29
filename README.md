@@ -1,6 +1,6 @@
 # README
 
-This repository contains the source files for [githubcampus.lafayette.edu](githubcampus.lafayette.edu). It uses the Jekyll static site builder. For the best experience, we recommend also setting up [devenv](https://devenv.sh) for manage your local authoring environment.
+This repository contains the source files for [githubcampus.lafayette.edu](https://githubcampus.lafayette.edu). It uses the Jekyll static site builder. For the best experience, we recommend also setting up [devenv](https://devenv.sh) for manage your local authoring environment.
 
 ## One-time setup
 
