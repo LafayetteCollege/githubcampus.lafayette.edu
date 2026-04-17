@@ -27,20 +27,40 @@ a {
     display:flex;
     align-items:center;
     justify-content:space-between;
+    flex-direction:row;
     width:100%;
 }
 
-.header-wrap {
+.site-header .wrapper::after {
+    display:none;
+}
+
+.header-title {
     overflow:hidden;
 
     a:link,
     a:visited {
         color:#FFFFFF;
     }
+
+    a:hover {
+        color:#FFFFFF;
+    }
 }
 
 .site-header {
     background-color:$laf-red;
+}
+
+.site-nav {
+    float:none;
+}
+
+.nav-items {
+    a:link,
+    a:visited {
+        color:#FFFFFF;
+    }
 }
 
 /* Home */
