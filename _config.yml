@@ -33,12 +33,12 @@ theme: minima
 plugins:
   - jekyll-feed
 
-minima:
-  social_links:
-    - title: Lafayette College repository at GitHub
-      icon: bolt
-      url: "https://github.com/LafayetteCollege"
-  hide_site_feed_link: true
+# minima:
+#   social_links:
+#     - title: Lafayette College repository at GitHub
+#       icon: bolt
+#       url: "https://github.com/LafayetteCollege"
+#   hide_site_feed_link: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
