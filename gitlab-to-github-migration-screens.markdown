@@ -15,6 +15,8 @@ title: GitLab to GitHub Migration
 <ol>
 <li>While logged into your GitHub account and enterprise shell, go to your Organization and create a new repository.</li>
 
+<img src="images/github_new_repo_menu.jpg" alt="GitHub new repo menu option" />
+
 <li>Complete the following fields:
     <ul>
         <li><strong>Owner:</strong> name of relevant department.</li>
@@ -32,6 +34,8 @@ title: GitLab to GitHub Migration
 </li>
 </ol>
 
+<img src="images/github_new_repo.jpg" alt="Creating a new repo in GutHub" />
+
 <h2>Step 2: Import your GitLab repository into your new GitHub repository</h2>
 
 <p>There are two ways to ingest your GitLab repository into your empty GitHub repository, and which you select depends on whether your repository has many branches.</p>
@@ -47,10 +51,14 @@ title: GitLab to GitHub Migration
 
 <ol>
     <li>Make sure all changes have been committed and your local copy of your repository is fully up to date.</li>
-    <li>On <a href="http://git.lafayette.edu">git.lafayette.edu</a>, navigate to your repository and click the blue code button, then copy the SSH url to the repository.</li>
+    <li>On <a href="http://git.lafayette.edu">git.lafayette.edu</a>, navigate to your repository and click the green code button, then copy the SSH url to the repository.
+        <img src="images/github_ssh_clone.jpg" alt="GitLab clone repo" />
+    </li>
     <li>Through Command Line, enter <code>git clone --bare [url]</code> to make a bare clone, replacing <code>[url]</code> with the SSH URL from GitLab.</li>
     <li>Note: There will be no working tree in the new repository. It is cloned as a mirror, not a working copy.</li>
-    <li>On GitHub, navigate to your repository and click the green <strong>&lt;&gt;</strong> code button, then copy the URL to your new repository.</li>
+    <li>On GitHub, navigate to your repository and click the blue <strong>&lt;&gt;</strong> code button, then copy the URL to your new repository.
+        <img src="images/gitlab_ssh_clone.jpg" alt="GitHub clone repo" />
+    </li>
     <li>Through Command Line, enter <code>git push --mirror [github url]</code>, replacing <code>[github url]</code> with the URL from GitHub.</li>
     <li>Delete your local mirror using your preferred method.</li>
     <li><a href="#LocalRemotes">Update your local remotes.</a></li>
@@ -68,10 +76,14 @@ title: GitLab to GitHub Migration
 <ol>
     <li>On the Command Line, navigate to the repository for which you need to update your local remotes.</li>
     <li>Enter <code>git remote -v</code> to check current remotes.</li>
-    <li>On GitHub, navigate to your repository and click the blue <strong>&lt;&gt;</strong> code button, then copy the URL to your new repository.</li>
+    <li>On GitHub, navigate to your repository and click the blue <strong>&lt;&gt;</strong> code button, then copy the URL to your new repository.
+        <img src="images/gitlab_ssh_clone.jpg" alt="GitHub clone repo" />
+    </li>
     <li>Back on the Command Line, enter <code>git remote set-url origin [github url]</code>, replacing <code>[github url]</code> with the URL copied from GitHub.</li>
     <li>Check <code>git remote -v</code> again to ensure that <strong>fetch</strong> and <strong>push</strong> have updated to the new GitHub links.</li>
-    <li>Test the update with a simple pushed update.</li>
+    <li>Test the update with a simple pushed update.
+        <img src="images/terminal_remote_update.jpg" alt="Updating remotes with the command line" />
+    </li>
 </ol>
 
 <h3>Update your local remotes via GitHub Desktop</h3>
