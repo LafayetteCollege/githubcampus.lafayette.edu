@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: page-base
-title: GitLab to GitHub Migration
+title: GitLab to GitHub Migration Workflow
 
 ---
 
