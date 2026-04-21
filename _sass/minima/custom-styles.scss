@@ -117,23 +117,6 @@ a {
     border-top:1px solid #DCDCDC;
 }
 
-a.button-link:link,
-a.button-link:visited {
-    background-color:$laf-red;
-    display:inline-block;
-    color:#FFFFFF;
-    padding:10px 45px;
-    border-radius:5px;
-    text-decoration:none;
-    transition:$transition-speed;
-    font-weight:700;
-    text-transform:uppercase;
-}
-
-a.button-link:hover {
-    background-color:$laf-gray;
-}
-
 .site-footer {
     background:$laf-gray;
 
@@ -148,6 +131,7 @@ a.button-link:hover {
 
     a:hover {
         color:#FFFFFF;
+        text-decoration:underline #FFFFFF;
     }
 }
 
@@ -202,6 +186,18 @@ a.button-link:hover {
     li {
         margin:10px 0;
     }
+
+    a:link,
+    a:visited {
+        color:$laf-blue;
+        text-decoration:underline $laf-blue;
+        text-underline-offset:2px;
+    }
+
+    a:hover {
+        color:$laf-dark-red;
+        text-decoration:underline $laf-dark-red;
+    }
 }
 
 .page-migration {
@@ -211,4 +207,23 @@ a.button-link:hover {
         display:block;
         margin:15px 0 25px 0;
     }
+}
+
+a.button-link:link,
+a.button-link:visited {
+    background-color:$laf-red;
+    display:inline-block;
+    color:#FFFFFF;
+    padding:10px 45px;
+    border-radius:5px;
+    text-decoration:none;
+    transition:$transition-speed;
+    font-weight:700;
+    text-transform:uppercase;
+    text-decoration:none;
+}
+
+a.button-link:hover {
+    background-color:$laf-gray;
+    text-decoration:none;
 }
