@@ -33,6 +33,8 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+nav_pages:
+    - gitlab-to-github-migration.md
 
 minima:
   social_links:

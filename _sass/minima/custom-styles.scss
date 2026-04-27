@@ -29,6 +29,7 @@ a {
     justify-content:space-between;
     flex-direction:row;
     width:100%;
+    box-sizing:border-box;
 }
 
 .site-header .wrapper::after {
@@ -58,15 +59,17 @@ a {
 }
 
 .nav-items {
-    a:link,
-    a:visited {
-        color:#FFFFFF;
-    }
+    @media( min-width:600px ) {
+        a:link,
+        a:visited {
+            color:#FFFFFF;
+        }
 
-    a:hover {
-        color:#FFFFFF;
-        text-decoration:underline #FFFFFF;
-    }
+        a:hover {
+            color:#FFFFFF;
+            text-decoration:underline #FFFFFF;
+        }
+    }    
 }
 
 /* Home */
